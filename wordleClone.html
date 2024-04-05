@@ -56,15 +56,13 @@
     </div>
 </body>
 <script>
-    const answer = ["TRAIN", "GUESS"] //todo make this word random
+    const answer = "MISTY" //todo make this word random
     const board = document.getElementById('board');
     const textBox = document.querySelector('input');
     const submitButton = document.querySelector('button');
     const gameOverMessage = document.getElementById('game-over');
 
     let currentGuessNumber = 0
-
-
 
     submitButton.addEventListener('click', function (e){
         let guess = textBox.value;
