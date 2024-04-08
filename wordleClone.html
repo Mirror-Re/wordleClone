@@ -51,16 +51,19 @@
                 <input type="text" maxlength="5" minlength="5">
                 <button>Enter!</button>
             </div>
+            <button onClick="window.location.reload();">Reset</button>
             <p id="game-over"></p>
         </div>
     </div>
 </body>
 <script>
-    const answer = "MISTY" //todo make this word random
+    const randomElement = ["CHEER", "PAUSE", "POOL", "GHAST", "MINTY", "MISTY", "BURST", "TRADE", "SMASH", "ERROR", "ABOUT"] //todo make this word random
     const board = document.getElementById('board');
     const textBox = document.querySelector('input');
     const submitButton = document.querySelector('button');
     const gameOverMessage = document.getElementById('game-over');
+
+    const answer = randomElement[Math.floor(Math.random() * randomElement.length)];
 
     let currentGuessNumber = 0
 
