@@ -6,58 +6,58 @@
     <link href="style.css" rel="stylesheet" type="text/css">
 </head>
 <body>
-    <div class="container">
-        <div class="content">
-            <table>
-                <tbody id="board">
-                <tr>
-                    <td></td>
-                    <td></td>
-                    <td></td>
-                    <td></td>
-                    <td></td>
-                </tr>
-                <tr>
-                    <td></td>
-                    <td></td>
-                    <td></td>
-                    <td></td>
-                    <td></td>
-                </tr>
-                <tr>
-                    <td></td>
-                    <td></td>
-                    <td></td>
-                    <td></td>
-                    <td></td>
-                </tr>
-                <tr>
-                    <td></td>
-                    <td></td>
-                    <td></td>
-                    <td></td>
-                    <td></td>
-                </tr>
-                <tr>
-                    <td></td>
-                    <td></td>
-                    <td></td>
-                    <td></td>
-                    <td></td>
-                </tr>
-                </tbody>
-            </table>
-            <div class="input-container">
-                <input type="text" maxlength="5" minlength="5">
-                <button>Enter!</button>
-            </div>
-            <button onClick="window.location.reload();">Reset</button>
-            <p id="game-over"></p>
+<div class="container">
+    <div class="content">
+        <table>
+            <tbody id="board">
+            <tr>
+                <td></td>
+                <td></td>
+                <td></td>
+                <td></td>
+                <td></td>
+            </tr>
+            <tr>
+                <td></td>
+                <td></td>
+                <td></td>
+                <td></td>
+                <td></td>
+            </tr>
+            <tr>
+                <td></td>
+                <td></td>
+                <td></td>
+                <td></td>
+                <td></td>
+            </tr>
+            <tr>
+                <td></td>
+                <td></td>
+                <td></td>
+                <td></td>
+                <td></td>
+            </tr>
+            <tr>
+                <td></td>
+                <td></td>
+                <td></td>
+                <td></td>
+                <td></td>
+            </tr>
+            </tbody>
+        </table>
+        <div class="input-container">
+            <input type="text" maxlength="5" minlength="5">
+            <button>Enter!</button>
         </div>
+        <button onClick="window.location.reload();">Reset</button>
+        <p id="game-over"></p>
     </div>
+</div>
 </body>
 <script>
-    const randomElement = ["PAUSE", "STARE", "PEACE", "GRAVE", "TABLE", "QUOTE", "PRIME", "FLUTE", "GLIDE", "CABLE", "WASTE"]
+    const randomElement = ["SHARD", "DARTS", "GHOUL", "WOULD", "QUIET", "DRAPE", "PRIME", "FLUTE", "GLIDE", "CABLE", "WASTE"]
     const board = document.getElementById('board');
     const textBox = document.querySelector('input');
     const submitButton = document.querySelector('button');

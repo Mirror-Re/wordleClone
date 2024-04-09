@@ -19,8 +19,17 @@ h6{
     text-align: left;
 }
 
-#levelSec{
-    text-align: right;
+.levelSec{
+    background-color: ghostwhite;
+    width: 730px;
+    border-radius: 5px;
+}
+
+
+.ruleSec{
+    background-color: ghostwhite;
+    width: 730px;
+    border-radius: 5px;
 }
 
 li{
