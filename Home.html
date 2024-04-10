@@ -13,7 +13,7 @@
 <div class="levelSec">
     <h2 id="levels">LEVELS</h2>
     <h2 style="color: #008000" class="LevelS">Easy: All words ends in "e" <button id="easy">Play</button></h2>
-    <h2 style="color: #019a01"LevelS">Medium: No duplicate letters <button id="medium">Play</button></h2>
+    <h2 style="color: #019a01" class="LevelS">Medium: No duplicate letters <button id="medium">Play</button></h2>
     <h2 style="color: #ffc425"class="LevelS">Hard: Uncommon words <button id="hard">Play</button></h2>
     <h2 style="color: #5c5c5c"class="LevelS">Impossible: Backwards words <button id="impossible">Play</button></h2>
 </div>
@@ -38,19 +38,19 @@
     const imp = document.getElementById('impossible')
 
     easy.addEventListener('click', function(){
-        window.open("wordleClone.html", target="_self")
+        window.open("EasyLevel.html", target="_self")
     })
 
     med.addEventListener('click', function(){
-        window.open("wordleClone.html", target="_self")
+        window.open("MediumLevel.html", target="_self")
     })
 
     hard.addEventListener('click', function(){
-        window.open("wordleClone.html", target="_self")
+        window.open("HardLevel.html", target="_self")
     })
 
     imp.addEventListener('click', function(){
-        window.open("wordleClone.html", target="_self")
+        window.open("ImpossibleLvl.html", target="_self")
     })
 </script>
 </body>
